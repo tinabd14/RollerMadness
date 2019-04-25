@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 82413440396830827}
   - component: {fileID: 82413440396830828}
   - component: {fileID: 82413440396830826}
+  - component: {fileID: -6724396273688306937}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -146,3 +147,22 @@ MonoBehaviour:
   delayBeforeDestroy: 0
   explosionPrefab: {fileID: 8807233019425904880, guid: 30695084c7ba5054ebba20af9dc63ffa,
     type: 3}
+--- !u!114 &-6724396273688306937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82413440396830817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72efb9e0cf1734f0988c6069f6220681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 1
+  respawnHealthPoints: 1
+  numberOfLives: 1
+  isAlive: 1
+  explosionPrefab: {fileID: 0}
+  onLivesGone: 1
+  LevelToLoad: 
