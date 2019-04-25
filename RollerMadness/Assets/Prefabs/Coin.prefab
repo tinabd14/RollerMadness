@@ -137,4 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 1
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 8807233019425904880, guid: ff7c1208f190d3a478fc925c2cc0183c,
+    type: 3}
